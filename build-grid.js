@@ -29,7 +29,7 @@ function Row(grid) {
   this.sqrs = [];
 }
 
-function Sqr(row, col, inputChar) {
+function Sqr(row, col, blockNum, inputChar) {
   this.number = inputChar;
   this.row = row;
   this.col = col;
