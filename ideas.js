@@ -102,11 +102,19 @@ Square
 
   locateBlock
     should return the block for a given square
-    
+
 //////////////////////////////////////
 
-Block 
-  (sq/3)%3
+block = math.floor(sq/3)%3
+row = math.floor(sq/9)
+col = 
+
+
+block0 = row0[0,1,2] + row1[0,1,2] + row2[0,1,2]
+block1 = row0[3,4,5] + row1[3,4,5] + row2[3,4,5]
+block2 = row0[6,7,8] + row1[6,7,8] + row2[6,7,8]
+
+
 
 
 

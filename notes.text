@@ -4,3 +4,6 @@ union / intersection / difference
 
 grid display
   cell at x,y
+
+
+  str[c+3*r]
