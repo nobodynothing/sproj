@@ -4,8 +4,6 @@ describe('Game', function() {
   })
 })
 
-
-Game can:
   describe('remaining', function() {
     it('should return the number of squares left to solve', function() {
       expect(game.remaining()).to.be.a.('number');
@@ -23,9 +21,6 @@ Game can:
       
     })
   })
-
-  remaining
-    return the number of squares left to solve
 
   load
     should ingest a string
@@ -64,6 +59,8 @@ Game can:
 
   locateBlock
     should return the block for a given square
+
+//////////////////////////////////////
 
 Row / Column / Block
   lookForDigits
@@ -105,7 +102,8 @@ Square
 
   locateBlock
     should return the block for a given square
-
+    
+//////////////////////////////////////
 
 Block 
   (sq/3)%3
